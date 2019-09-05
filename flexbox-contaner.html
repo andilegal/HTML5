@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flexbox</title>
+	<meta charset=utf-8>
+	<meta name=description content="">
+	<meta name=viewport content="width=device-width, initial-scale=1">
+<style type="text/css">
+#conteudo{
+	background: #dcdcdc;
+	height: 600px;
+	width: 830px;
+	display: flex;
+	margin: 0 auto;
+	/* /* /*row|row-reverse|column|column-reverse*/
+/* 	flex-direction: row; */
+
+	/*nowrap|wrap|wrap-reverse*/
+	/* flex-wrap: nowrap; */
+
+	/* flex-start|flex-end|center|span-betwen|spance-around */
+	/* justify-content: space-around; */
+
+	/*stretch|center|flex-start|flex-end|baseline */
+
+	/* align-items: baseline; */ 
+} 
+.item{
+	/* width: 100px; */
+	height: 100px;
+	background: white;
+	border: 1px solid gray;
+	margin: 10px;
+	/* definicao de espaco ocupado por um intem */
+	/* flex-grow:1; */
+	}
+	/*
+	.ordem1{
+		order: 1;
+	}
+	.ordem2{
+		order:2;
+	}
+		order: 3;
+	}
+	.ordem{
+		order: -1;
+	}*/
+	.item1{
+	/* flex-grow: 1; */
+
+	/* define a capacidade de reducao de tamanho do item */
+	/* flex-shrink:1;  */
+	flex-basis: 100px;
+	}
+	.item2{
+	
+	}
+	.item3{
+	
+	}
+
+</style>
+</head>
+<body>
+<h1>Flexbox</h1>
+<div id="conteudo">
+	<div class="item item1">01</div>
+	<div class="item item2">02</div>
+	<div class="item item3">03</div>
+	<div class="item">04</div>
+</div>
+</body>
+</html>
